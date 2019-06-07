@@ -1,8 +1,5 @@
 FROM jenkinsci/blueocean
 
-COPY android.jks /
-COPY google-services*.json /
-
 USER root
 RUN apk -U update
 
